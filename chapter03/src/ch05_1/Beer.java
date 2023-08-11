@@ -9,5 +9,9 @@ public class Beer extends Machine {
 		origin = 5;
 	}
 	
+	public void findOrigin() {
+		System.out.println(origin);
+	}
+	
 
 }

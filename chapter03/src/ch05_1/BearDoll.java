@@ -8,6 +8,10 @@ public class BearDoll extends Machine {
 		super(name, weight);
 		origin = "È¸»ö";
 	}
+	
+	public void findOrigin() {
+		System.out.println(origin);
+	}
 
 	
 

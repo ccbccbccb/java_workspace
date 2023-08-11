@@ -8,6 +8,10 @@ public class KeyRing extends Machine {
 		super(name, weight);
 		origin = "BMW";
 	}
+	
+	public void findOrigin() {
+		System.out.println(origin);
+	}
 
 	
 

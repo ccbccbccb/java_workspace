@@ -8,6 +8,10 @@ public class ToyCar extends Machine {
 		super(name, weight);
 		origin = "benz";
 	}
+	
+	public void findOrigin() {
+		System.out.println(origin);
+	}
 
 	
 }
