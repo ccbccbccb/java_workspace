@@ -2,11 +2,11 @@ package ch05_1;
 
 public class KeyRing extends Machine {
 	
-	String brand;
+	String origin;
 	
 	public KeyRing(String name, int weight) {
 		super(name, weight);
-		brand = "BMW";
+		origin = "BMW";
 	}
 
 	

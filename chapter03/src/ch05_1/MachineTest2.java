@@ -7,7 +7,7 @@ public class MachineTest2 {
 	public static void main(String[] args) {
 		
 		Random random = new Random();
-		int selected = random.nextInt(3) + 1;
+		int selected = random.nextInt(4);
 
 		Machine[] product = new Machine[10];
 		product[0] = new BearDoll("곰인형", 1000);
@@ -17,19 +17,19 @@ public class MachineTest2 {
 		
 		if (selected == 0) {
 			product[selected].showInfo();
-			String checkOrigin = ((BearDoll) (product[selected])).color;
+			String checkOrigin = ((BearDoll) (product[selected])).origin;
 			System.out.println("색깔 : " + checkOrigin);
 		} else if (selected == 1) {
 			product[selected].showInfo();
-			int checkOrigin = ((Beer) (product[selected])).alcohol;
+			int checkOrigin = ((Beer) (product[selected])).origin;
 			System.out.println("도수 : " + checkOrigin);
 		} else if (selected == 2) {
 			product[selected].showInfo();
-			String checkOrigin = ((KeyRing) (product[selected])).brand;
+			String checkOrigin = ((KeyRing) (product[selected])).origin;
 			System.out.println("브랜드명 : " + checkOrigin);
 		} else if (selected == 3) {
 			product[selected].showInfo();
-			String checkOrigin = ((ToyCar) (product[selected])).brand;
+			String checkOrigin = ((ToyCar) (product[selected])).origin;
 			System.out.println("브랜드명 : " + checkOrigin);
 		}
 

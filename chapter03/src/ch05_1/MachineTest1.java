@@ -14,19 +14,19 @@ public class MachineTest1 {
 			if (a != null) {
 				a.showInfo();
 				if (a instanceof BearDoll) {
-					String checkOrigin = ((BearDoll) (a)).color;
+					String checkOrigin = ((BearDoll) (a)).origin;
 					System.out.println("색깔 : " + checkOrigin);
 				}
 				else if (a instanceof Beer) {
-					int checkOrigin = ((Beer) (a)).alcohol;
+					int checkOrigin = ((Beer) (a)).origin;
 					System.out.println("도수 : " + checkOrigin);
 				}
 				else if (a instanceof KeyRing) {
-					String checkOrigin = ((KeyRing) (a)).brand;
+					String checkOrigin = ((KeyRing) (a)).origin;
 					System.out.println("브랜드명 : " + checkOrigin);
 				}
 				else if (a instanceof ToyCar) {
-					String checkOrigin = ((ToyCar) (a)).brand;
+					String checkOrigin = ((ToyCar) (a)).origin;
 					System.out.println("브랜드명 : " + checkOrigin);
 				}
 			}

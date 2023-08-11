@@ -13,6 +13,10 @@ public class Machine {
 	public void showInfo() {
 		System.out.println("상품명 : " + name);
 		System.out.println("무게 : " + weight);
+		
 	}
+	
+	
+
 
 }

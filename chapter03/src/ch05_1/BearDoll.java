@@ -2,11 +2,11 @@ package ch05_1;
 
 public class BearDoll extends Machine {
 	
-	String color;
+	String origin;
 	
 	public BearDoll(String name, int weight) {
 		super(name, weight);
-		color = "회색";
+		origin = "회색";
 	}
 
 	
